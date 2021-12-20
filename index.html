@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/234bf763b4.js" crossorigin="anonymous"></script>
+	<title>Shriganesh Multiservices</title>
+	</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="logofinal.png"></a>
+			<h1>Shriganesh<br><span>MultiServices</span></h1>
+			<div class="nav-links" id="navlinks">
+				<i class="fas fa-times-circle" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="dsc.html">DSC</a></li>
+					<li><a href="ourservices.html">OUR SERVICES</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" onclick="showmenu()"></i>
+		</nav>
+	</section>
+	<div class="slider-box">
+		<div id="slider">
+			<img src="banner1.jpg">
+			<img src="banner2.jpg">
+		</div>
+		<div class="indicators">
+			<span id="btn1" class="active"></span>
+			<span id="btn2" class="active1"></span>
+		</div>
+	</div>
+	<section class="dsc">
+		<h2>Buy Online Class-3 Digital Signature Certificate</h2>
+		<div class="row">
+			<div class="dsccol">
+				<img src="CLASS3SIGN.jpg">
+				<br><a href="payment.html" class="button">Buy Now</a>
+			</div>
+			<div class="dsccol">
+				<img src="class3encrpyt.jpg">
+				<br><a href="payment.html" class="button">Buy Now</a>
+			</div>
+		</div>
+		<div class="row1">
+			
+		</div>
+		<h3>Digital Signature Certificate</h3>
+		<p>Digital Signature Certificates or DSC or Digital Signature are being adopted by various government agencies and now is a statutory requirement in various applications. We offers different class of certificates to help organization and individuals secure online transactions with legal validity as per the Indian IT Act, 2000.The certificates conform to x.509 standard of Public Key Infrastructure (PKI) in India where in additionally these are issued as per IVG and IOG guidelines issued by the office of Controller of Certifying Authorities.</p>
+		<h4>Class 3 Digital Signature Certificate</h4>
+		<p>We offer class 3 digital signature certificates according to IVG guideline which is considered as the most secure and the safest of all certificates. It is mainly used in matters of high security and safety such as e-filing, online trading and e-commerce, where a huge amount of money or highly confidential information is involved. The main functions of Class 3 certificates :- e-Tendering,  Patent and Trademark e-filing, MCA e-filing,  Income Tax e-filing,  LLP registration, Customs e-filing,  e-Procurement, e-Bidding, e-Auction, GST Application filing etc.</p>
+	</section>
+	<section class="services">
+		<h5> Our   Services</h5>
+		<div class="ourser"></div>
+	</section>
+	<section class="footer">
+		<div class="footerrow">
+			<div class="footercol">
+				<h6>BANK DETAIL</h6>
+				<p><span>Payee Name:</span> Rushikesh Subhash Kotwal<br><span>Account No.:</span> 36268436014<br><span>IFSC Code:</span> SBIN0003282<br><span>Bank:</span> State Bank of India<br><span>Branch:</span> ADB Khamgaon<br><span>Type:</span> Savings<br><br><span>Phonepe No:</span> 9156691406</p>
+			</div>
+			<div class="footercol">
+				<h6>OUR SERVICES</h6>
+				<p>Digital Signature Certificate<br>Shop Act Registration<br>Fssai Registration<br>GST Registration<br>UDYAM Registration<br>PWD Contractor Registration<br>PTEC Registration</p>
+			</div>
+			<div class="footercol">
+				<h6>ADDRESS</h6>
+				<p>Dagdoba Chowk, Chinchwad<br>Near Chinchwade Nagar, Chinchwad<br>Pune - 411033<br>PH: +91 8459044535<br>Email : golu94kotwal@gmail.com</p>
+			</div>
+			
+		</div>
+
+		
+	</section>
+
+	
+	<script>
+			var slide = document.getElementById("slider");
+			var btn1 = document.getElementById("btn1");
+			var btn2 = document.getElementById("btn2");
+
+			btn1.onclick = function () {
+				slide.style.transform = "translateX(0px)";
+				btn1.classlist.add("active");
+				btn2.classlist.remove("active1");
+			}
+			btn2.onclick = function () {
+				slide.style.transform = "translateX(-100%)";
+				btn1.classlist.remove("active");
+				btn2.classlist.add("active1");
+			}
+	</script>
+
+	<script >
+		var navlinks = document.getElementById("navlinks");
+		function showmenu() {
+			navlinks.style.right = "0";
+
+		}
+		function hidemenu() {
+			navlinks.style.right = "-200px";
+			
+		}
+	</script>
+</body>
+</html>

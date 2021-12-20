@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/234bf763b4.js" crossorigin="anonymous"></script>
+	<title>Shriganesh Multiservices</title>
+	</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="logofinal.png"></a>
+			<h1>Shriganesh<br><span>MultiServices</span></h1>
+			<div class="nav-links" id="navlinks">
+				<i class="fas fa-times-circle" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="dsc.html">DSC</a></li>
+					<li><a href="ourservices.html">OUR SERVICES</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" onclick="showmenu()"></i>
+		</nav>
+	</section>
+	<section class="sub-header2">
+		<img src="images.png">
+	</section>
+	<section class="contact-us">
+		<div class="row">
+			<div class="contact-col">
+				<div>
+					<i class="fas fa-laptop-house"></i>
+					<span>
+						<h5>Dagdoba Chowk, Near Chinchwade Nagar,</h5>
+						<p>Chinchwad Pune - 411033</p>
+					</span>
+				</div>
+				<div>
+					<i class="fas fa-blender-phone"></i>
+					<span>
+						<h5>+91 8459044535</h5>
+						<p>Monday - Saturday 10 AM to 6 PM</p>
+					</span>
+				</div>
+				<div>
+					<i class="fas fa-mail-bulk"></i>
+					<span>
+						<h5>golu94kotwal@gmail.com</h5>
+						<p>Send Your Query</p>
+					</span>
+				</div>
+				<div>
+					<i class="fab fa-whatsapp"></i>
+					<span>
+						<h5>+91 8459044535</h5>
+						<p>Monday - Saturday 10 AM to 6 PM</p>
+					</span>
+				</div>
+		</div>
+		<div class="contact-col">
+			<form action="form-handler.php" method="post">
+				<input type="text" name="name" placeholder="Enter Your Name" required>
+				<input type="Email" name="email" placeholder="Enter Your Email Address" required>
+				<input type="No" name="mob" placeholder="Enter Your Mob no." required>
+				<input type="text" name="subject" placeholder="Enter Your Subject" required>
+				<textarea rows="8" name="message" placeholder="Message"></textarea>
+				<button type="submit" class="button2">Send Message</button>
+			</form>
+		</div>
+	</div>
+	</section>
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7561.244754657077!2d73.77037980000003!3d18.6360472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1639025798439!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</section>
+	
+	
+	<section class="footer">
+		<div class="footerrow">
+			<div class="footercol">
+				<h6>BANK DETAIL</h6>
+				<p><span>Payee Name:</span> Rushikesh Subhash Kotwal<br><span>Account No.:</span> 36268436014<br><span>IFSC Code:</span> SBIN0003282<br><span>Bank:</span> State Bank of India<br><span>Branch:</span> ADB Khamgaon<br><span>Type:</span> Savings<br><br><span>Phonepe No:</span> 9156691406</p>
+			</div>
+			<div class="footercol">
+				<h6>OUR SERVICES</h6>
+				<p>Digital Signature Certificate<br>Shop Act Registration<br>Fssai Registration<br>GST Registration<br>UDYAM Registration<br>PWD Contractor Registration<br>PTEC Registration</p>
+			</div>
+			<div class="footercol">
+				<h6>ADDRESS</h6>
+				<p>Dagdoba Chowk, Chinchwad<br>Near Chinchwade Nagar, Chinchwad<br>Pune - 411033<br>PH: +91 8459044535<br>Email : golu94kotwal@gmail.com</p>
+			</div>
+			
+		</div>
+
+	</section>
+	<script >
+		var navlinks = document.getElementById("navlinks");
+		function showmenu() {
+			navlinks.style.right = "0";
+
+		}
+		function hidemenu() {
+			navlinks.style.right = "-200px";
+			
+		}
+	</script>
+	
+	
+</body>
+</html>
